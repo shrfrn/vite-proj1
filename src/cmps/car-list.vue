@@ -18,7 +18,7 @@ export default {
     props: ['cars'],
     methods: {
         onRemoveCar(carId) {
-            const idx = cars.findIndex(car => car.id === carId)
+            const idx = this.cars.findIndex(car => car.id === carId)
             this.cars.splice(idx, 1)
         }
     },
