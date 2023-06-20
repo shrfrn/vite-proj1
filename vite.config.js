@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
   ],
   resolve: {
-    base: 'vite-proj',
+    base: 'vite-proj1',
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
